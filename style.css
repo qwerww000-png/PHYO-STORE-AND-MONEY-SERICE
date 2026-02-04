@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: #0a66c2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0a66c2;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #0a66c2;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.contact a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background: #25d366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact a:nth-child(2) {
+  background: #0088cc;
+}
+
+.contact a:nth-child(3) {
+  background: #1877f2;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 30px;
+}
